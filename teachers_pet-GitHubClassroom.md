@@ -31,7 +31,7 @@ For example, if you have enabled two-factor authentication, you must provide a p
 
 ## Settings in GitHub Organization
 
-After you have created your GitHub Organization (e.g. `datasciencelabs-students`), you must change the default repository permission (under Settings) to "None" (Members will only be able to clone and pull public repositories. To give a member additional access, you?ll need to add them to teams or make them collaborators on individual repositories.). 
+After you have created your GitHub Organization (e.g. `datasciencelabs-students`), you must change the default repository permission (under Settings) to "None" (Members will only be able to clone and pull public repositories. To give a member additional access, you'll need to add them to teams or make them collaborators on individual repositories.). 
 
 This ensures as you add each member (or student) to the organization, they will only be able to see the repositories that you give them access to. 
 
@@ -62,9 +62,12 @@ This will create empty repositories for each student called `<student-GitHub-use
 When creating repositories for students, you will often want to include boilerplate files. After running `create_repos`, create a canonical copy of the starter files. (e.g. README.md, or homework problems, .gitignore, Makefiles, etc.) in a repository. From the local clone of the repository, use the `push_files action` to place that code in the repositories for each student. This works by creating a Git remote for each student repository, and doing a git push to each one. This treats the student repos on github as remotes. 
 
 >	$ cd 2016-HW1
+
 > 	$ teachers_pet push_files --organization=datasciencelabs-students --repository=2016HW1 --students=../students.txt
 
 **Note**: You can push files to specific branches.  e.g. If you want to push files from a specific branch, change to that branch of the repository and then push from there. 
+
+>	$ cd 2016-HW1
 
 >	$ teachers_pet push_files --organization=datasciencelabs-students --repository=2016HW1 --students=../students.txt --branch=bonusbranch
 
