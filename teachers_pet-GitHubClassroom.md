@@ -1,11 +1,13 @@
-# Setting up `teachers_pet`
+# Using GitHub in the Classroom
 
-For this tutorial, I'm using the [GitHub Organization datasciencelabs-students](https://github.com/datasciencelabs-students), 
+GitHub offers private (and of course public) repositories for students to use in the classroom through its [education initiative](https://education.github.com). This give students hands-on experience with version control and writing code in an individual setting (e.g. homework assignments) or collaborative setting (e.g. final projects). If you would like your students to submit assignments using git/GitHub, this is a tutorial that walks you through the process of setting it up.  
+
+Here, I'm demonstrating the ideas using the [GitHub Organization datasciencelabs-students](https://github.com/datasciencelabs-students), 
 which was created for submitting homework assignments in the [Introduction to Data Science course](http://datasciencelabs.github.io/) at the Harvard School of Public Health. We followed the [GitHub Education Classroom guide](https://education.github.com/guide) for this. To create private repositories for each student for each homework assignment, we followed the [sandboxing setup](https://education.github.com/guide/sandboxing). 
 
 For more information about [`teachers_pet`](http://www.rubydoc.info/gems/teachers_pet)
 
-## Steps: 
+# Setting up `teachers_pet`
 
 1. Set up [two factor authentication on GitHub](https://help.github.com/articles/about-two-factor-authentication/) with your mobile device (e.g. google authenticator). You may have to [check the SSH key on GitHub matches SSH key on your computer](https://help.github.com/articles/generating-an-ssh-key/). 
 
