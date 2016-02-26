@@ -63,21 +63,21 @@ This will create empty repositories for each student called `<student-GitHub-use
 
 ## Pushing starter files
 
-When creating repositories for students, you will often want to include boilerplate files. After running `create_repos`, create a canonical copy of the starter files. (e.g. README.md, or homework problems, .gitignore, Makefiles, etc.) in a repository. From the local clone of the repository, use the `push_files action` to place that code in the repositories for each student. This works by creating a Git remote for each student repository, and doing a git push to each one. This treats the student repos on github as remotes. 
+When creating repositories for students, you will often want to include boilerplate files. After running `create_repos`, create a new git repository called `2016HW2` with the starter files (e.g. README.md, or homework problems, .gitignore, Makefiles, etc.). This repository can be a local clone from some remote repository or it can just a git repository on your local computer. Change into that directory and use the `push_files action` to place that starter files in the repositories for each student. This works by creating a Git remote for each student repository, and doing a git push to each one. (i.e. the command treats the student repos on github as remotes) 
 
 	$ cd 2016-HW2
 
 	$ teachers_pet push_files --organization=datasciencelabs-students --repository=2016HW2 --students=../students.txt
 
-**Note**: You can push files to specific branches.  e.g. If you want to push files from a specific branch, change to that branch of the repository and then push from there. 
+**Note**: You can push files to specific branches with the `--branch` argument.  e.g. If you want to push files from a specific branch, change to that branch of the repository using `git checkout <name-of-branch>` and then push from there. 
 
 	$ cd 2016-HW2
 
-	$ teachers_pet push_files --organization=datasciencelabs-students --repository=2016HW2 --students=../students.txt --branch=bonusbranch
+	$ teachers_pet push_files --organization=datasciencelabs-students --repository=2016HW2 --students=../students.txt --branch=<name-of-branch>
 
 ## Deleting repos
 
-At the end of your course, if you want to recycle the private repositories to be able to use them again in your next course, use the `delete_repos` command. **Warning**:  There is no un-doing this step. Once you delete the private repositories, you can get them back.  Only run this command after all your students have a chance to clone / copy their homework assignments, if they wish.  
+At the end of your course, if you want to recycle the private repositories to be able to use them again in your next course, use the `delete_repos` command. **Warning**:  There is no un-doing this step. Once you delete the private repositories, you cannot get them back.  Only run this command after all your students have a chance to clone / copy their homework assignments, if they wish.  
 
 	$ teachers_pet delete_repos --organization=datasciencelabs-students --repository=2016HW2 --students=../students.txt
 
