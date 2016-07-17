@@ -1,6 +1,6 @@
 # General Advice on an Academic Career Path
 
-![Female Academic Minions]http://3.bp.blogspot.com/-5rGlRTQ0OVw/VO8l6YWBMlI/AAAAAAAADto/HMgCCGEvPvM/s1600/minions.png)
+![Female Academic Minions](http://3.bp.blogspot.com/-5rGlRTQ0OVw/VO8l6YWBMlI/AAAAAAAADto/HMgCCGEvPvM/s1600/minions.png)
 
 This document contains resources and notes that I've gathered about following an academic career path (from being a graduate student and postdoctoral fellow to faculty). I should preface this by stating this advice is geared towards an applied statistics/genomics field, but I think most of it applies to a broader set of fields. Pull requests and comments are welcomed! 
 
