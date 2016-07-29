@@ -135,6 +135,8 @@ Here are a few extra tips:
 
 * Learn how to say **no** to almost everything people ask you to do and **yes** to only a few things that will specifically advance your career and research goals. The majority of things you will be asked to do is extra or extracurricular with regards to your promotion. Therefore make sure to pause and think carefully about what you commit to.
 * Find a sponsor. Someone to advocate for you, nominate you for awards and promote your work to colleagues. 
+* When you are deciding whether or not to work with a potential collaborator, check out their publication list to assess what kind of productivity you should expect. 
+* Get copies of successful grants. Ask people not in your field to review your grant because these are the types of people who will review your grant (i.e. avoid jargon and use simple enough language). 
 
 
 ## Podcasts
