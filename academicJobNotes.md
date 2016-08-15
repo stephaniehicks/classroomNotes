@@ -41,6 +41,10 @@ The application package should contain (at a minimum):
 * A teaching statement. Again this varies from field to field and what type of position it is. If the position is mostly focused on research, then a 1 page teaching statement is sufficient. If the position is mostly teaching, then this should be significantly longer. 
 * Prepare 3-5 reference letters to be emailed (or mailed via snail mail sometimes) directly to the department. 
 
+#### Example research and teaching statements
+
+* [Graham Coop, Jeff Leek, et al.](https://github.com/cooplab/statements/tree/master/statements)
+
 If your application was well-received and you get an offer to interview, CONGRATULATIONS! You made it through the first round! Here is a brief summary of what you should expect next.
 
 #### 1st interview
@@ -138,6 +142,10 @@ Here are a few extra tips:
 * When you are deciding whether or not to work with a potential collaborator, check out their publication list to assess what kind of productivity you should expect. 
 * Get copies of successful grants. Ask people not in your field to review your grant because these are the types of people who will review your grant (i.e. avoid jargon and use simple enough language). 
 
+
+#### Examples of NSF Biosketch
+
+* [Titus Brown](https://github.com/ctb/resume/blob/master/NSF%20BioSketch.pdf)
 
 ## Podcasts
 
