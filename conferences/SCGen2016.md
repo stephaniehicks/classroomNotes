@@ -3,7 +3,7 @@
 Notes and slides for the [2016 Single Cell Genomics (SCG) Conference](https://coursesandconferences.wellcomegenomecampus.org/events/item.aspx?e=596) 
 at the Wellcome Genome Campus, Hinxton, Cambridge, UK from Sept 14-16, 2016. Here is a pdf of the 
 [SCG Program](http://conf.hinxton.wellcome.ac.uk/advancedcourses/SSG16draftprogrammeFinal.pdf). 
-Follow the twitter hashtag [#SCGen2016](https://twitter.com/search?f=tweets&vertical=default&q=%23SCGen2016&src=typd)
+Follow the twitter hashtag [#SCGen16](https://twitter.com/search?f=tweets&vertical=default&q=%23SCGen16&src=typd)
 
 Pull requests welcome! or tweet me
 [@stephaniehicks](https://twitter.com/stephaniehicks). 
@@ -20,7 +20,7 @@ Pull requests welcome! or tweet me
 **Chair**: [Rickard Sandberg](http://sandberg.cmb.ki.se) from [@karolinskainst](https://twitter.com/karolinskainst)
 
 - [Sten Linnarsson](http://linnarssonlab.org), [@slinnarsson](https://twitter.com/slinnarsson), Towards a census of mouse brain cell types
-	- Useful links to data and software available on lab website including [BackSPIN](https://github.com/linnarsson-lab/BackSPIN): biclustering algorithm based on sorting points into neighborhoods (SPIN), implemented in MATLAB and Python) and described in [Zeisel et al. (2015)](http://science.sciencemag.org/content/347/6226/1138)
+	- Useful links to data and software available on lab website including [BackSPIN](https://github.com/linnarsson-lab/BackSPIN): biclustering algorithm based on sorting points into neighborhoods (SPIN), implemented in MATLAB and Python and described in [Zeisel et al. (2015)](http://science.sciencemag.org/content/347/6226/1138)
 
 - [Barbara Treutlein](http://www.treutleinlab.org), Reconstructing human organogenesis using single-cell RNA- seq
 
