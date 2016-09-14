@@ -19,7 +19,8 @@ Pull requests welcome! or tweet me
 
 **Chair**: [Rickard Sandberg](http://sandberg.cmb.ki.se) from [@karolinskainst](https://twitter.com/karolinskainst)
 
-- [Sten Linnarsson](http://linnarssonlab.org), [@slinnarsson](https://twitter.com/slinnarsson), Molecular census of mouse brain cell types
+- [Sten Linnarsson](http://linnarssonlab.org), [@slinnarsson](https://twitter.com/slinnarsson), Towards a census of mouse brain cell types
+	- Useful links to data and software available on lab website including [BackSPIN](https://github.com/linnarsson-lab/BackSPIN): biclustering algorithm based on sorting points into neighborhoods (SPIN), implemented in MATLAB and Python) and described in [Zeisel et al. (2015)](http://science.sciencemag.org/content/347/6226/1138)
 
 - [Barbara Treutlein](http://www.treutleinlab.org), Reconstructing human organogenesis using single-cell RNA- seq
 
