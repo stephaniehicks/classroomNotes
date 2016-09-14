@@ -27,6 +27,9 @@ Pull requests welcome! or tweet me
 - [Maria Kasper](http://ki.se/en/people/markas), Plasticity and heterogeneity of skin cells in health and tissue repair
 
 - [Naomi Habib](http://zlab.mit.edu/team.html), Single nucleus RNA-Seq reveals dynamics of adult neurogenesis
+	- Developed [sNuc-Seq and Div-Seq](http://science.sciencemag.org/content/353/6302/925.full) to investigate dynamic transcriptome of rare adult newborn neurons; introduced bi-SNE (biclustering on Stochastic Neighbor Embedding)
+		- sNuc-Seq (single nuclei RNA-seq): skips dissociation step and can be done on aging tissue, and fresh/frozen tissue, allows you to obtain neurons. 	
+		- Div-Seq (combines sNuc-Seq with pulse labeling of proliferating cells): labels all dividing cells in dynamic processes, no need for marker genes.  
 
 - [Gray Camp](http://www.eva.mpg.de/genetics/staff.html), Human cerebral organoids recapitulate gene expression programs of fetal neocortex development
 
