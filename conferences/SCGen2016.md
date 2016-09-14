@@ -3,6 +3,7 @@
 Notes and slides for the [2016 Single Cell Genomics (SCG) Conference](https://coursesandconferences.wellcomegenomecampus.org/events/item.aspx?e=596) 
 at the Wellcome Genome Campus, Hinxton, Cambridge, UK from Sept 14-16, 2016. Here is a pdf of the 
 [SCG Program](http://conf.hinxton.wellcome.ac.uk/advancedcourses/SSG16draftprogrammeFinal.pdf). 
+Follow the twitter hashtag [#SCGen2016](https://twitter.com/search?f=tweets&vertical=default&q=%23SCGen2016&src=typd)
 
 Pull requests welcome! or tweet me
 [@stephaniehicks](https://twitter.com/stephaniehicks). 
