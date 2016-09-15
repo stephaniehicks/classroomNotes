@@ -53,8 +53,10 @@ Pull requests welcome! or tweet me
 	- Discussed how chromatin accessibility within genes correlates with expression. Used [scM&T-Seq](http://www.nature.com/nmeth/journal/v13/n3/fig_tab/nmeth.3728_SF1.html) to sequence the methylome and transcriptome in single-cells. 
 	
 - [Ana Pombo](https://pombolab.wordpress.com), [@apombo1](https://twitter.com/apombo1), Genome Architecture Mapping, new approach to map chromatin contacts
-
+	- Genome Architecture Mapping (GAM): approach to measuring 3-D chromatin topology in a nucleus (spatial information). Maps chromatin contacts using random cryosectioning (slices through a nucleus), extract DNA from sections to sequence, to quantify the frequency of locus co-segregation and calculate individual nuclear profiles (NPs). 
+	
 - [Peter Fraser](http://www.babraham.ac.uk/our-research/nuclear-dynamics/peter-fraser), [@Peter_Fraser1](https://twitter.com/peter_fraser1), Chromosome dynamics revealed by single cell HiC
+	- Really cool example of using [single-cell Hi-C](http://www.nature.com/nature/journal/v502/n7469/full/nature12593.html) to investigate chromosomal conformations through stages of the cell cycle. Suggests that TADs may more reflect replication dynamics than transcription regulation. 
 
 - [Amanda Ackerman](http://www.chop.edu/doctors/ackermann-amanda#.V9F6JmX_RGI), Single-cell ATAC-seq identifies epigenetic differences in human pancreatic islet cell subtypes from normal and diabetic donors
 
