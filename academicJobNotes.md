@@ -22,14 +22,11 @@ This document contains resources and notes that I've gathered about following an
 
 * [Managing your postdoc year(s): avoid these mistakes](http://theprofessorisin.com/2014/09/12/managing-your-postdoc-years-a-guest-post/) by The Professor Is In
 * [Leek guide to reading papers](https://github.com/jtleek/readingpapers) by Jeff Leek
-* [Tips for faculty job interviews](http://mathbionerd.blogspot.com/2014/03/tips-for-job-interviews.html) by mathbionerd
-* [Tips for academic startup: what is negotiable?](http://mathbionerd.blogspot.com/2014/03/academic-startup-what-is-negotiable.html) by mathbionerd
-* [Startup Suggestions tweets](https://storify.com/mwilsonsayres/start-up-suggestions-startupwishlist) by mathbionerd
-* [Advice for students on the academic job market](http://simplystatistics.org/2013/12/04/advice-for-stats-students-on-the-academic-job-market-2/) by Simply Statistics
-* [Preparing for tenure track job interviews](http://simplystatistics.org/2014/01/07/preparing-for-tenure-track-job-interviews-2/) by Simply Statistics
 
 
 ## Applying for faculty positions
+
+* [Advice for students on the academic job market](http://simplystatistics.org/2013/12/04/advice-for-stats-students-on-the-academic-job-market-2/) by Simply Statistics
 
 #### The application package
 
@@ -41,11 +38,22 @@ The application package should contain (at a minimum):
 * A teaching statement. Again this varies from field to field and what type of position it is. If the position is mostly focused on research, then a 1 page teaching statement is sufficient. If the position is mostly teaching, then this should be significantly longer. 
 * Prepare 3-5 reference letters to be emailed (or mailed via snail mail sometimes) directly to the department. 
 
-#### Example research and teaching statements
+#### Cover letters and CVs
 
-* [Graham Coop, Jeff Leek, et al.](https://github.com/cooplab/statements/tree/master/statements)
+* [Academic Cover Letters for Statistical Science Faculty Positions](http://drsherrirose.com/academic-cover-letters-for-statistical-science-faculty-positions) by Sherri Rose
+* [Academic CVs for Statistical Science Faculty Positions](http://drsherrirose.com/academic-cvs-for-statistical-science-faculty-positions) by Sherri Rose
+
+#### Research and teaching statements
+
+* [Graham Coop, Jeff Leek, et al.](https://github.com/cooplab/statements/tree/master/statements): example research and teaching statements
+* [The Dreaded Teaching Statement: Eight Pitfalls](http://theprofessorisin.com/2016/09/12/thedreadedteachingstatement/) by The Professor Is In
+
+#### Interviews 
 
 If your application was well-received and you get an offer to interview, CONGRATULATIONS! You made it through the first round! Here is a brief summary of what you should expect next.
+
+* [Preparing for tenure track job interviews](http://simplystatistics.org/2014/01/07/preparing-for-tenure-track-job-interviews-2/) by Simply Statistics
+* [Tips for faculty job interviews](http://mathbionerd.blogspot.com/2014/03/tips-for-job-interviews.html) by mathbionerd
 
 #### 1st interview
 
@@ -65,7 +73,7 @@ If your application was well-received and you get an offer to interview, CONGRAT
 #### 2nd interview  
 
 * If the first interview was successful, an offer is made. Then comes the second interview, which is an opportunity to explore more of the town you would be moving to. The department may even offer to connect you with a relator to show you around the town. 
-* You can meet with faculty that you may have not had the chance to meet on the first interview. You can also ask to meet with faculty outside of the department (e.g. potential collaborators). 
+* You can meet with faculty that you may have not had the chance to meet on the first interview. You can also ask to meet with faculty outside of the department (e.g. potential collaborators).
 
 
 #### Preparing for faculty interviews
@@ -118,6 +126,9 @@ Other important things to keep in mind:
 * Do not knock your present or past employer.
 
 #### The offer letter 
+
+* [Tips for academic startup: what is negotiable?](http://mathbionerd.blogspot.com/2014/03/academic-startup-what-is-negotiable.html) by mathbionerd
+* [Startup Suggestions tweets](https://storify.com/mwilsonsayres/start-up-suggestions-startupwishlist) by mathbionerd
 
 Key things to look for in the offer letter: 
 
