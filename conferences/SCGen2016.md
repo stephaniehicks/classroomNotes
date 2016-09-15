@@ -43,7 +43,7 @@ Pull requests welcome! or tweet me
 
 **Chair**: [Ido Amit](https://www.weizmann.ac.il/immunology/AmitLab/front) from [@WeizmannScience](https://twitter.com/WeizmannScience)
 
-- [Amos Tanay](https://compgenomics.weizmann.ac.il/tanay/), Single cell dynamics of clonal memory
+- [Amos Tanay](http://compgenomics.weizmann.ac.il/tanay/), Single cell dynamics of clonal memory
 
 - [Will Greenleaf](http://greenleaf.stanford.edu/index.html), [@WJGreenleaf](https://twitter.com/wjgreenleaf), ATAC-ing regulatory variation in single cells
 
@@ -89,7 +89,7 @@ Pull requests welcome! or tweet me
 
 - [Allon Klein](http://klein.hms.harvard.edu), Population balance reconstruction of differentiation hierarchies in developing and adult tissues by single cell droplet RNA-Seq
 
-- [Arnau Sebé-Pedrós](https://compgenomics.weizmann.ac.il/tanay/?page_id=12), [@ArnauSebe](https://twitter.com/arnausebe), Early metazoan cell type evolution by single cell RNA-seq analysis
+- [Arnau SebÃ©-PedrÃ³s](https://compgenomics.weizmann.ac.il/tanay/?page_id=12), [@ArnauSebe](https://twitter.com/arnausebe), Early metazoan cell type evolution by single cell RNA-seq analysis
 
 - [Omid Faridani](https://www.researchgate.net/profile/Omid_Faridani2), Sequencing Small-RNA transcriptome of individual cells
 
