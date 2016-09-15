@@ -44,7 +44,7 @@ Pull requests welcome! or tweet me
 **Chair**: [Ido Amit](https://www.weizmann.ac.il/immunology/AmitLab/front) from [@WeizmannScience](https://twitter.com/WeizmannScience)
 
 - [Amos Tanay](http://compgenomics.weizmann.ac.il/tanay/), Single cell dynamics of clonal memory
-	- [MARS-Seq](http://science.sciencemag.org/content/343/6172/776.abstract) - Based on CEL-Seq technology, but automates processing of cells into 384-well plates
+	- [MARS-Seq](http://science.sciencemag.org/content/343/6172/776.abstract) - Based on CEL-Seq technology, but automates processing of cells into 384-well plates and incorporates index sorting up to 10 markers (especially useful for immune cells)
 
 - [Will Greenleaf](http://greenleaf.stanford.edu/index.html), [@WJGreenleaf](https://twitter.com/wjgreenleaf), ATAC-ing regulatory variation in single cells
 	- [scATAC-Seq](http://www.nature.com/nature/journal/v523/n7561/fig_tab/nature14590_F1.html) using Fluidigm platform
@@ -69,6 +69,8 @@ Pull requests welcome! or tweet me
 **Chair**: [John Marioni](http://www.ebi.ac.uk/research/marioni) from [@emblebi](https://twitter.com/emblebi) and [@CRUKresearch](https://twitter.com/crukresearch)
 
 - [Sarah Teichmann](http://www.teichlab.org), Understanding Cellular Heterogeneity
+	- Discusses [sensitivity, specificity and accuracy of different scRNA-seq protocols](http://biorxiv.org/content/early/2016/09/08/073692) using ERCC spike-ins (work with [@vallens](https://twitter.com/vallens)). Found endogenous genes are more **efficiently** captured than ERCC spike-ins (counterintuitive, but pleasantly surprising). Freeze-thaw cycles decrease RNA content about 20% with each cycle. Protocols are overall very **accurate** (Pearson correlation of expected vs observed), but there are differences in **sensitivity** (especially for detecting lowly expressed genes ~1-10 molecules per cell) - you get a benefit of sequencing up to 1 million reads. 
+	- [GPfates](https://github.com/Teichlab/GPfates) - Model transcriptional cell fates as mixtures of Gaussian Processes
 
 - [Ido Amit](https://www.weizmann.ac.il/immunology/AmitLab/front), Immunology in the age of single cell genomics
 
