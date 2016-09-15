@@ -44,11 +44,14 @@ Pull requests welcome! or tweet me
 **Chair**: [Ido Amit](https://www.weizmann.ac.il/immunology/AmitLab/front) from [@WeizmannScience](https://twitter.com/WeizmannScience)
 
 - [Amos Tanay](http://compgenomics.weizmann.ac.il/tanay/), Single cell dynamics of clonal memory
+	- [MARS-Seq](http://science.sciencemag.org/content/343/6172/776.abstract) - Based on CEL-Seq technology, but automates processing of cells into 384-well plates
 
 - [Will Greenleaf](http://greenleaf.stanford.edu/index.html), [@WJGreenleaf](https://twitter.com/wjgreenleaf), ATAC-ing regulatory variation in single cells
+	- [scATAC-Seq](http://www.nature.com/nature/journal/v523/n7561/fig_tab/nature14590_F1.html) using Fluidigm platform
 
 - [Stephen Clark](http://www.babraham.ac.uk/our-research/lymphocyte/geoffrey-butcher/members/65/stephen-clark), Chromatin accessibility, DNA methylation and gene expression from the same single-cell
-
+	- Discussed how chromatin accessibility within genes correlates with expression. Used [scM&T-Seq](http://www.nature.com/nmeth/journal/v13/n3/fig_tab/nmeth.3728_SF1.html) to sequence the methylome and transcriptome in single-cells. 
+	
 - [Ana Pombo](https://pombolab.wordpress.com), [@apombo1](https://twitter.com/apombo1), Genome Architecture Mapping, new approach to map chromatin contacts
 
 - [Peter Fraser](http://www.babraham.ac.uk/our-research/nuclear-dynamics/peter-fraser), [@Peter_Fraser1](https://twitter.com/peter_fraser1), Chromosome dynamics revealed by single cell HiC
