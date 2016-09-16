@@ -73,12 +73,14 @@ Pull requests welcome! or tweet me
 	- [GPfates](https://github.com/Teichlab/GPfates) - Model transcriptional cell fates as mixtures of Gaussian Processes
 
 - [Ido Amit](https://www.weizmann.ac.il/immunology/AmitLab/front), Immunology in the age of single cell genomics
+	- Combined CRISPR with MARS-seq2 for pooled index screening - based on gRNA libraries bearing RNA barcodes
 
 - [Timm Schroeder](https://www.bsse.ethz.ch/department/people/detail-person.html?persid=193443), Long-term single cell quantification: New tools for old questions
 
 - [Amir Giladi](http://www.weizmann.ac.il/lifesci/idcards/AmirGiladi0464.html), Transcriptional heterogeneity and lineage commitment in hematopoietic progenitors
 
 - [Bart Deplancke](http://deplanckelab.epfl.ch), [@BartDeplancke](https://twitter.com/bartdeplancke), Single-cell RNA-seq-based identification and characterisation of somatic stem cells in adipose tissue & beyond
+	- [Automated Single-cell Analysis Pipeline (ASAP)](http://asap.epfl.ch)
 
 - [Matan Hofree](https://www.researchgate.net/profile/Matan_Hofree), Unbiased whole tissue analysis of the single cell transcriptional landscape of colon cancer
 
@@ -102,16 +104,17 @@ Pull requests welcome! or tweet me
 
 - [Alexander van Oudenaarden](http://www.hubrecht.eu/onderzoekers/van-oudenaarden-group/), Revealing novel cell types, cell-cell interactions, and cell lineages by single-cell sequencing
 
-- [Stephanie Hicks](http://www.stephaniehicks.com), [@stephaniehicks](https://twitter.com/stephaniehicks), On the widespread and critical impact of systematic bias and batch effects in single-cell RNA-Seq data
+- [Stephanie Hicks](http://www.stephaniehicks.com), [@stephaniehicks](https://twitter.com/stephaniehicks), [Towards progress in batch effects and biases single-cell RNA-Seq data](https://speakerdeck.com/stephaniehicks/towards-progress-in-batch-effects-and-biases-in-single-cell-rna-seq-data)
 
 - [Marc Wadsworth](https://www.researchgate.net/profile/Marc_Wadsworth), Seq-Well: A Portable Single-Cell RNA-Seq Platform for Low-Input Clinical Samples
+	-  Seq-Well: the portable microarray well technology for scRNA-seq
 
 - [Eshita Sharma](https://scholar.google.com/citations?user=xljyFDkAAAAJ&hl=en), Single cell preservation for RNAseq
 
 - [Marc Unger](https://www.fluidigm.com/about/aboutfluidigm), Single-cell transcriptomics and functional analysis of single- cells
 
 - [Manuel Garber](http://garberlab.umassmed.edu), Dissection of T1 Diabetes progression using Single cell RNA sequencing of a RAT model
-
+	- [End sequencing analysis toolkit (ESAT)](https://github.com/garber-lab/ESAT) 
 
 
 ### Sesssion 5: Imaging and Modeling
