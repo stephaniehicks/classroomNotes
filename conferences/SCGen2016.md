@@ -51,21 +51,22 @@ Pull requests welcome! or tweet me
 	- [MARS-Seq](http://science.sciencemag.org/content/343/6172/776.abstract) - Based on CEL-Seq technology, but automates processing of cells into 384-well plates and incorporates index sorting up to 10 markers (especially useful for immune cells)
 
 - [Will Greenleaf](http://greenleaf.stanford.edu/index.html), [@WJGreenleaf](https://twitter.com/wjgreenleaf), ATAC-ing regulatory variation in single cells
-	- [scATAC-Seq](http://www.nature.com/nature/journal/v523/n7561/fig_tab/nature14590_F1.html) using Fluidigm platform
+	- Starts out with both [Waddington's](https://en.wikipedia.org/wiki/C._H._Waddington) Classical Epigenetic Landscape images - [concept of an epigenetic landscape as a visual metaphor](http://www.cell.com/cell/pdf/S0092-8674(07)00186-9.pdf) for the cell (represented by the ball), which can take specific trajectories, leading to different outcomes or cell fates
+	- discussed [ATAC-seq](http://www.nature.com/nmeth/journal/v10/n12/full/nmeth.2688.html) (captures open chromatin sites e.g. nucleosomes, TF binding footprints, chromatin states) and [scATAC-Seq](http://www.nature.com/nature/journal/v523/n7561/fig_tab/nature14590_F1.html) using Fluidigm platform
 
 - [Stephen Clark](http://www.babraham.ac.uk/our-research/lymphocyte/geoffrey-butcher/members/65/stephen-clark), Chromatin accessibility, DNA methylation and gene expression from the same single-cell
-	- Discussed how chromatin accessibility within genes correlates with expression. Used [scM&T-Seq](http://www.nature.com/nmeth/journal/v13/n3/fig_tab/nmeth.3728_SF1.html) to sequence the methylome and transcriptome in single-cells. 
+	- Discussed how chromatin accessibility within genes correlates with expression. Used [scM&T-Seq](http://www.nature.com/nmeth/journal/v13/n3/fig_tab/nmeth.3728_SF1.html) (combines G&T-seq, Smart-Seq2 + scBS-seq) to sequence the methylome and transcriptome in single-cells. 
 	
 - [Ana Pombo](https://pombolab.wordpress.com), [@apombo1](https://twitter.com/apombo1), Genome Architecture Mapping, new approach to map chromatin contacts
-	- Genome Architecture Mapping (GAM): approach to measuring 3-D chromatin topology in a nucleus (spatial information). Maps chromatin contacts using random cryosectioning (slices through a nucleus), extract DNA from sections to sequence, to quantify the frequency of locus co-segregation and calculate individual nuclear profiles (NPs). 
+	- Genome Architecture Mapping (GAM): approach to measuring 3-D chromatin topology in a nucleus (spatial information). Maps chromatin contacts using random cryosectioning (slices through a nucleus), extract DNA from sections to sequence, to quantify the frequency of locus co-segregation (currently 30-40 kb resolution) and calculate individual nuclear profiles (NPs). 
 	
 - [Peter Fraser](http://www.babraham.ac.uk/our-research/nuclear-dynamics/peter-fraser), [@Peter_Fraser1](https://twitter.com/peter_fraser1), Chromosome dynamics revealed by single cell HiC
 	- Really cool example of using [single-cell Hi-C](http://www.nature.com/nature/journal/v502/n7469/full/nature12593.html) to investigate chromosomal conformations through stages of the cell cycle. Suggests that TADs may more reflect replication dynamics than transcription regulation. 
 
 - [Amanda Ackerman](http://www.chop.edu/doctors/ackermann-amanda#.V9F6JmX_RGI), Single-cell ATAC-seq identifies epigenetic differences in human pancreatic islet cell subtypes from normal and diabetic donors
+	- studies differences between [alpha and beta islet cells](http://www.molmetab.com/article/S2212-8778(16)00003-X/fulltext) using sc and bulk RNA-seq, ChIP-seq, BS-seq and ATAC-seq
 
 - [Jan-Philipp Mallm](https://malone.bioquant.uni-heidelberg.de/people/mallm/index-mallm.html), Dissecting Deregulated Enhancer Activity in Primary Leukemia Cells
-
 
 
 ### Session 3: Immunology and Cancer
@@ -74,21 +75,27 @@ Pull requests welcome! or tweet me
 
 - [Sarah Teichmann](http://www.teichlab.org), Understanding Cellular Heterogeneity
 	- Discusses [sensitivity, specificity and accuracy of different scRNA-seq protocols](http://biorxiv.org/content/early/2016/09/08/073692) using ERCC spike-ins (work with [@vallens](https://twitter.com/vallens)). Found endogenous genes are more **efficiently** captured than ERCC spike-ins (counterintuitive, but pleasantly surprising). Freeze-thaw cycles decrease RNA content about 20% with each cycle. Protocols are overall very **accurate** (Pearson correlation of expected vs observed), but there are differences in **sensitivity** (especially for detecting lowly expressed genes ~1-10 molecules per cell) - you get a benefit of sequencing up to 1 million reads. 
-	- [GPfates](https://github.com/Teichlab/GPfates) - Model transcriptional cell fates as mixtures of Gaussian Processes
+	- Uses [Gaussian process latent variable model](http://www.cell.com/cell-reports/fulltext/S2211-1247(15)01538-7) for dim reduction
+	- Software include [GPfates](https://github.com/Teichlab/GPfates) (models transcriptional cell fates as mixtures of Gaussian Processes) and [TraCeR](http://www.nature.com/nmeth/journal/v13/n4/full/nmeth.3800.html) (reconstructs T-cell clonal relationships from scRNA-seq data	
+	- Advertises for [Single Cell Omics Keystone Symposia](http://keystonesymposia.org/17e3) in Stockholm May 26-30, 2017
 
 - [Ido Amit](https://www.weizmann.ac.il/immunology/AmitLab/front), Immunology in the age of single cell genomics
-	- Combined CRISPR with MARS-seq2 for pooled index screening - based on gRNA libraries bearing RNA barcodes
+	- Combined CRISPR with [MARS-seq2](https://compgenomics.weizmann.ac.il/tanay/?page_id=672) (~10,000 cells/day, better barcoding, SNR, reproducibility and cost) for pooled index screening - based on gRNA libraries bearing RNA barcodes
 
 - [Timm Schroeder](https://www.bsse.ethz.ch/department/people/detail-person.html?persid=193443), Long-term single cell quantification: New tools for old questions
+	- Argued that snapshots of single cells is not sufficient. Need time dimension to really understand what's happening biologically. Critical of pseudotime approaches (not as good as real time in some situations e.g. identifying cycles). Reaffirms the need for good methods software to analyze single cell data
+	- [The Tracking Tool]((http://www.nature.com/nbt/journal/v34/n7/full/nbt.3626.html)) - for continuous single cell behavior quantification 
 
-- [Amir Giladi](http://www.weizmann.ac.il/lifesci/idcards/AmirGiladi0464.html), Transcriptional heterogeneity and lineage commitment in hematopoietic progenitors
+- [Fabian Theis](http://fabian.theis.name), Diffusion pseudotime identifies lineage choice and graded transitions in myeloid progenitors
+	- Extracts pseudotemporal ordering and branch points from diffusion maps (examples from early blood development)
+	- [Diffusion Pseudotime (DPT)](http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.3971.html?WT.feed_name=subjects_genetics) software - to estimate order of differentiating cells according to DPT (measures transitions between cells using diffusion-like random walks)
 
 - [Bart Deplancke](http://deplanckelab.epfl.ch), [@BartDeplancke](https://twitter.com/bartdeplancke), Single-cell RNA-seq-based identification and characterisation of somatic stem cells in adipose tissue & beyond
 	- [Automated Single-cell Analysis Pipeline (ASAP)](http://asap.epfl.ch)
 
 - [Matan Hofree](https://www.researchgate.net/profile/Matan_Hofree), Unbiased whole tissue analysis of the single cell transcriptional landscape of colon cancer
 
-- [Fabian Theis](http://fabian.theis.name), Diffusion pseudotime identifies lineage choice and graded transitions in myeloid progenitors
+- [Amir Giladi](http://www.weizmann.ac.il/lifesci/idcards/AmirGiladi0464.html), Transcriptional heterogeneity and lineage commitment in hematopoietic progenitors
 
 
 
