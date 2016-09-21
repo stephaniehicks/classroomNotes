@@ -3,9 +3,8 @@
 Notes and slides for the [2016 Single Cell Genomics (SCG) Conference](https://coursesandconferences.wellcomegenomecampus.org/events/item.aspx?e=596) 
 at the Wellcome Genome Campus, Hinxton, Cambridge, UK from Sept 14-16, 2016. Here is a pdf of the 
 [SCG Program](http://conf.hinxton.wellcome.ac.uk/advancedcourses/SSG16draftprogrammeFinal.pdf). 
-Follow the twitter hashtag [#SCGen16](https://twitter.com/search?f=tweets&vertical=default&q=%23SCGen16&src=typd)
-
-Pull requests welcome! or tweet me
+Follow the twitter hashtag [#SCGen16](https://twitter.com/search?f=tweets&vertical=default&q=%23SCGen16&src=typd). 
+I missed some of the talks, so pull requests are welcome to fill in gaps! or tweet me
 [@stephaniehicks](https://twitter.com/stephaniehicks). 
 
 
@@ -106,23 +105,28 @@ Pull requests welcome! or tweet me
 **Chair**: [Sten Linnarsson](http://linnarssonlab.org), [@slinnarsson](https://twitter.com/slinnarsson)
 
 - [Rickard Sandberg](http://sandberg.cmb.ki.se), Single-cell gene expression analyses of allelic transcription and regulation
+	- Discussed chromosome-wide evidence of de novo paternal X chromosome inactivation in mouse embryos using scRNA-seq
 
 - [Allon Klein](http://klein.hms.harvard.edu), Population balance reconstruction of differentiation hierarchies in developing and adult tissues by single cell droplet RNA-Seq
+	- Discussed [inDrop](http://www.cell.com/cell/abstract/S0092-8674(15)00500-0) (core facility now at 15-20K cells/hr, 80% of cells barcoded, >2K cell input, 7 cents/cell)
+	- SPRING - software for visualizing and interacting with single cell data using a force-directed graph approach; publication coming soon. 
 
 - [Arnau Sebé-Pedrós](https://compgenomics.weizmann.ac.il/tanay/?page_id=12), [@ArnauSebe](https://twitter.com/arnausebe), Early metazoan cell type evolution by single cell RNA-seq analysis
 
 - [Omid Faridani](https://www.researchgate.net/profile/Omid_Faridani2), Sequencing Small-RNA transcriptome of individual cells
 
 - [Alexander van Oudenaarden](http://www.hubrecht.eu/onderzoekers/van-oudenaarden-group/), Revealing novel cell types, cell-cell interactions, and cell lineages by single-cell sequencing
+	- Used [single-cell strand-specific 5hmC sequencing to explore cell-to-cell variability and cell lineage reconstruction](http://www.nature.com/nbt/journal/v34/n8/full/nbt.3598.html)
 
-- [Stephanie Hicks](http://www.stephaniehicks.com), [@stephaniehicks](https://twitter.com/stephaniehicks), [Towards progress in batch effects and biases single-cell RNA-Seq data](https://speakerdeck.com/stephaniehicks/towards-progress-in-batch-effects-and-biases-in-single-cell-rna-seq-data)
+- [Stephanie Hicks](http://www.stephaniehicks.com), [@stephaniehicks](https://twitter.com/stephaniehicks), Towards progress in batch effects and biases single-cell RNA-Seq data [[Slides](https://speakerdeck.com/stephaniehicks/towards-progress-in-batch-effects-and-biases-in-single-cell-rna-seq-data)]
+	- Pre-print of our [paper on bioRxiv](http://biorxiv.org/content/early/2015/12/27/025528)
 
 - [Marc Wadsworth](https://www.researchgate.net/profile/Marc_Wadsworth), Seq-Well: A Portable Single-Cell RNA-Seq Platform for Low-Input Clinical Samples
-	-  Seq-Well: the portable microarray well technology for scRNA-seq
+	-  Seq-Well: the portable microarray well technology for scRNA-seq (combines microwell and bead-based approaches in a nanowell) - 10K cells/array
 
 - [Eshita Sharma](https://scholar.google.com/citations?user=xljyFDkAAAAJ&hl=en), Single cell preservation for RNAseq
 
-- [Marc Unger](https://www.fluidigm.com/about/aboutfluidigm), Single-cell transcriptomics and functional analysis of single- cells
+- [Marc Lynch](https://www.fluidigm.com/about/aboutfluidigm), Single-cell transcriptomics and functional analysis of single- cells
 
 - [Manuel Garber](http://garberlab.umassmed.edu), Dissection of T1 Diabetes progression using Single cell RNA sequencing of a RAT model
 	- [End sequencing analysis toolkit (ESAT)](https://github.com/garber-lab/ESAT) 
@@ -133,24 +137,31 @@ Pull requests welcome! or tweet me
 **Chair**: [Alexander van Oudenaarden](http://www.hubrecht.eu/onderzoekers/van-oudenaarden-group/) from [@_Hubrecht](https://twitter.com/_hubrecht?lang=en)
 
 - [Long Cai](http://singlecell.caltech.edu/cailab/), In situ transcription profiling in tissues by seqFISH
+	- [SeqFISH](http://www.nature.com/nmeth/journal/v11/n4/full/nmeth.2892.html) ? multiplexed spatial transcriptomics
+	- Clustered 15,000 imaged cells with 125 genes to identify many cell types (mapped back onto slice images)
 
 - [Heather Lee](http://www.babraham.ac.uk/our-research/epigenetics/olivia-casanueva/members/198/heather-lee), Dynamic and heterogeneous DNA methylation in pluripotent cells
+	- uses [scBS-seq](http://go.nature.com/2ccGomv) to measure methylation
 
 - [Steffen Rulands](http://www.rulands.net), [@srulands](https://twitter.com/srulands), Dynamic and heterogeneous DNA methylation in pluripotent cells
 
 - [Jeffrey Moffitt](https://scholar.google.com/citations?user=U7eic7AAAAAJ&hl=en), High-throughput, spatially resolved, single-cell transcriptomics with MERFISH
+	- [MERFISH](http://www.pnas.org/content/early/2016/09/07/1612826113): an image-based single cell transcriptomics method; now increased throughput for imaging many cells 
 
 - [Jan Philipp Junker](https://scholar.google.com/citations?user=0tt8A_4AAAAJ), Massively parallel clonal analysis using CRISPR/Cas9 induced genetic scars
 
 - [John Marioni](http://www.ebi.ac.uk/research/marioni), Dissecting cell fate choice using single-cell genomics
-	- [Synthetic Spike-ins Controls (sequins)](http://www.nature.com/nmeth/journal/v13/n9/full/nmeth.3958.html)
+	- [BASiCs](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004333) (Bayesian Analysis of Single-Cell Sequencing data): finds differentially expressed and differentially variable genes
+	- Discussed how bulk RNA-seq normalization tools (e.g. DESeq, TMM) do not work well for scRNA-seq; points to new normalization method in [Bioconductor called scran](http://bioconductor.org/packages/release/bioc/html/scran.html) which calculates cell-specific normalization factors by pooling information across cells to avoid problems due to sparsity in scRNA-seq data
+	- Discussed problems with spike-ins in practice; points to [Synthetic Spike-ins Controls (sequins)](http://www.nature.com/nmeth/journal/v13/n9/full/nmeth.3958.html)
 
 - [David van Dijk](https://sciencedavid.wordpress.com), MAGIC: A Diffusion based data imputation method reveals progressions and gene-gene interactions in breast cancer cells undergoing EMT
+	- MAGIC: uses random walks/diffusion to generate low-dimension global manifold (data structure) based on local cell similarities; validates method by showing it recovers structure even after inducing a lot of sparsity 
 
 - [Rom Shenhav](http://shalevlab.weizmann.ac.il/group-members/), Single-cell spatial reconstruction reveals global division of labor in the mammalian liver
 
 - [Petra Schwalie](https://scholar.google.com/citations?user=EMSKH8cAAAAJ&hl=en), Accurate identification of somatic stem cells using single-cell RNA-sequencing
-
-
+	- Used LASSO logistic regression to to identify stem cells in adult mammalian tissue across 14 scRNA-seq adult somatic data sets (train (2/3), tested (1/3))
+	
 
 
