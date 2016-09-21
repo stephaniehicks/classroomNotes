@@ -1,0 +1,103 @@
+---
+title: "Single Cell Genomics 2016 (#SCGen16)"
+output: html_document
+---
+
+```{r echo = FALSE, cache = FALSE}
+knitr::opts_chunk$set(cache = TRUE, message = FALSE)
+
+options(httr_oauth_cache = TRUE)
+```
+
+Here is a quick analysis of tweets from the [2016 Single Cell Genomics (SCG) Conference](https://coursesandconferences.wellcomegenomecampus.org/events/item.aspx?e=596) 
+at the Wellcome Genome Campus, Hinxton, Cambridge, UK from Sept 14-16, 2016. Twitter hashtag [#SCGen16](https://twitter.com/search?f=tweets&vertical=default&q=%23SCGen16&src=typd). 
+
+Using the `twitteR` R package, I scraped 1000 tweets from the conference. 
+
+```{r}
+library(httr)
+library(twitteR)
+library(tidyr)
+library(dplyr)
+library(stringr)
+
+setup_twitter_oauth(getOption("twitter_consumer_key"),
+                    getOption("twitter_consumer_secret"),
+                    getOption("twitter_access_token"),
+                    getOption("twitter_access_token_secret"))
+
+scgen16 <- searchTwitter("#SCGen16", n = 1000)
+```
+
+Even though I asked for 1000 tweets, it turns out as of September 21 2016, there were only 586 tweets (for the entire conference). I'm not sure why, but that seems like so few to me compared to some of the other conferences that I have recently attended. 
+
+Next, I transformed there scrapped data into a data frame and removed the duplicated retweets. 
+
+```{r}
+scgen16_tweets <- bind_rows(lapply(scgen16, as.data.frame)) # Transform into a data frame 
+scgen16_non_retweets <- scgen16_tweets %>% filter(!isRetweet) # Filter out retweets
+```
+
+## Who tweeted the most? 
+
+```{r}
+scgen16_non_retweets %>%
+    count(screenName, sort = TRUE)
+```
+
+## How often were tweets retweeted? favorited? 
+```{r}
+library(ggplot2)
+ggplot(scgen16_non_retweets, aes(retweetCount)) +
+    geom_histogram() + xlab("Number of Retweets")
+
+ggplot(scgen16_non_retweets, aes(favoriteCount)) +
+    geom_histogram() + xlab("Number of Favorites")
+```
+
+
+Using the `unnest_tokens()` function in the tidytext package, I divided the
+text from the tweets into words as rows on a data frame with a text column.
+
+```{r}
+library(tidytext)
+
+tweet_words <- scgen16_non_retweets %>%
+    select(screenName, id, created, text) %>% 
+    unnest_tokens(word, text) %>% 
+    filter(!word %in% stop_words$word)
+
+tweet_words %>% head()
+```
+
+## What were the top 50 most tweeted words in the conference? 
+
+```{r, fig.height= 10}
+reg <- "([^A-Za-z\\d#@']|'(?![A-Za-z\\d#@]))"
+tweet_words <- scgen16_non_retweets %>% 
+    select(id, statusSource, text, created) %>% 
+  mutate(text = str_replace_all(text, "https://t.co/[A-Za-z\\d]+|&amp;", "")) %>% 
+  unnest_tokens(word, text, token = "regex", pattern = reg) %>% 
+  filter(!word %in% stop_words$word,str_detect(word, "[a-z]"))
+
+tweet_words %>% count(word, sort = TRUE) %>% top_n(50) %>%
+    ggplot(aes(x = reorder(word, n), n)) + geom_bar(stat="identity") + 
+    coord_flip() + xlab("Tweeted words") + ylab("Frequency")
+
+```
+
+OK if we remove `#scgen16`. You see a lot of the two letter words (e.g. `st`) were the speakers (`st` = Sarah Teichmann, `jm` = John Marioni, etc). 
+
+```{r, fig.height= 8}
+tweet_words %>% count(word, sort = TRUE) %>% top_n(50) %>%
+    filter(!(word == "#scgen16")) %>% 
+    ggplot(aes(x = reorder(word, n), n)) + geom_bar(stat="identity") + 
+    coord_flip() + xlab("Tweeted words") + ylab("Frequency")
+
+```
+
+
+#### Useful Resources
+
+* [httr quickstart guide](https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html)
+* [apps.twitter.com](https://apps.twitter.com/): start a Twitter app here before using the twitteR package
