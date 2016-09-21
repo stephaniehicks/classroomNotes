@@ -14,17 +14,20 @@ Pull requests welcome! or tweet me
 ### Keynote Lecture
 
 - [Arnold Kriegstein](https://bms.ucsf.edu/directory/faculty/arnold-kriegstein-md-phd), Genomic insights into human cortical development, lissencephaly, and Zika microcephaly
+	- Very interesting story on using scRNA-seq to study the zika virus and congenital microcephaly. Both cause malformations in the brain (but Zika also destroys already developed tissue). The AXL Zika receptor is expressed in radial glia cells (precursors for neuronal expansion in brain cortex) and can be used to predict where damage occurs in the brain. Showed blocking AXL prevents Zika entry into progenitor cells in developing brain. Pregnancy-safe compounds now being tested. 
 
 ### Session 1: Neuroscience & Tissue Development
 
 **Chair**: [Rickard Sandberg](http://sandberg.cmb.ki.se) from [@karolinskainst](https://twitter.com/karolinskainst)
 
 - [Sten Linnarsson](http://linnarssonlab.org), [@slinnarsson](https://twitter.com/slinnarsson), Towards a census of mouse brain cell types
-	- Useful links to data and software available on lab website including [BackSPIN](https://github.com/linnarsson-lab/BackSPIN): biclustering algorithm based on sorting points into neighborhoods (SPIN), implemented in MATLAB and Python and described in [Zeisel et al. (2015)](http://science.sciencemag.org/content/347/6226/1138)
+	- Example of [identifying neurons that control goosebumps](http://linnarssonlab.org/publications/2016/08/29/sympathetic/). On brain development, "differentiation speed affects how many intermediate types scRNAseq captures". Useful links to data and software available on lab website including [BackSPIN](https://github.com/linnarsson-lab/BackSPIN): biclustering algorithm based on sorting points into neighborhoods (SPIN), implemented in MATLAB and Python and described in [Zeisel et al. (2015)](http://science.sciencemag.org/content/347/6226/1138). 
 
-- [Barbara Treutlein](http://www.treutleinlab.org), Reconstructing human organogenesis using single-cell RNA- seq
+- [Barbara Treutlein](http://www.treutleinlab.org), Reconstructing human organogenesis using single-cell RNA-seq
+	- [Treutlein et al. 2016](http://www.nature.com/nature/journal/v534/n7607/full/nature18323.html) - reprogramming from fibroblast to neuron using scRNA-seq	
 
 - [Maria Kasper](http://ki.se/en/people/markas), Plasticity and heterogeneity of skin cells in health and tissue repair
+	- There are 25 (!!) different cell types in a single hair follicle
 
 - [Naomi Habib](http://zlab.mit.edu/team.html), Single nucleus RNA-Seq reveals dynamics of adult neurogenesis
 	- Developed [sNuc-Seq and Div-Seq](http://science.sciencemag.org/content/353/6302/925.full) to investigate dynamic transcriptome of rare adult newborn neurons; introduced bi-SNE (biclustering on Stochastic Neighbor Embedding)
@@ -32,6 +35,7 @@ Pull requests welcome! or tweet me
 		- Div-Seq (combines sNuc-Seq with pulse labeling of proliferating cells): labels all dividing cells in dynamic processes, no need for marker genes.  
 
 - [Gray Camp](http://www.eva.mpg.de/genetics/staff.html), Human cerebral organoids recapitulate gene expression programs of fetal neocortex development
+	- [used scRNA-seq to deconstruct fetal human neocortex & cerebral organoid development](http://www.pnas.org/content/112/51/15672.full). Used [SCDE](http://hms-dbmi.github.io/scde/) identify DE genes between chimp and human (candidates for human-specific function).
 
 - [Marta Rodriguez Orejuela](https://www.mdc-berlin.de/10179514/en/research/research_teams/systems_biology_of_gene_regulatory_elements/team), Characterization of adult neurogenic niches at single cell resolution
 
@@ -132,6 +136,7 @@ Pull requests welcome! or tweet me
 - [Jan Philipp Junker](https://scholar.google.com/citations?user=0tt8A_4AAAAJ), Massively parallel clonal analysis using CRISPR/Cas9 induced genetic scars
 
 - [John Marioni](http://www.ebi.ac.uk/research/marioni), Dissecting cell fate choice using single-cell genomics
+	- [Synthetic Spike-ins Controls (sequins)](http://www.nature.com/nmeth/journal/v13/n9/full/nmeth.3958.html)
 
 - [David van Dijk](https://sciencedavid.wordpress.com), MAGIC: A Diffusion based data imputation method reveals progressions and gene-gene interactions in breast cancer cells undergoing EMT
 
