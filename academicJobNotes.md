@@ -154,6 +154,7 @@ Here are a few extra tips:
 * Get copies of successful grants. Ask people not in your field to review your grant because these are the types of people who will review your grant (i.e. avoid jargon and use simple enough language). 
 
 
+
 #### Examples of NSF Biosketch
 
 * [Titus Brown](https://github.com/ctb/resume/blob/master/NSF%20BioSketch.pdf)
