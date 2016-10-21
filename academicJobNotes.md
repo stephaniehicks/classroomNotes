@@ -10,6 +10,10 @@ This document contains resources and notes that I've gathered about following an
 * [Grad students in (bio)stats - do a postdoc!](http://simplystatistics.tumblr.com/post/14929329755/grad-students-in-biostatistics-do-a-postdoc) by Simply Statistics
 * [Leek guide to sharing data with a statistician](https://github.com/jtleek/datasharing) by Jeff Leek
 
+#### Why do a postdoc?
+
+
+
 #### Applying for a postdoc
 
 * 20 percent of your applications should be to to advertised positions and 80 percent should be cold emails to people who you are interested in working with (i.e. leaders in your field). It's OK to email them directly (even if you've never met before).
