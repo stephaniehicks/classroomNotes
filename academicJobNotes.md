@@ -149,14 +149,14 @@ Key things to look for in the offer letter:
 * [Things to avoid as a new faculty member](https://kbroman.wordpress.com/2013/12/05/things-to-avoid-as-a-new-faculty-member/) by Karl Broman
 * [Ten lessons I wish I had been taught](http://alumni.media.mit.edu/~cahn/life/gian-carlo-rota-10-lessons.html) by Gian-Carlo Rota
 * [Leek guide to give talks](https://github.com/jtleek/talkguide) by Jeff Leek
+* [The Awesomest 7-Year Postdoc or: How I Learned to Stop Worrying and Love the Tenure-Track Faculty Life](https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/) by Radhika Nagpal: "Seven things I did during my first seven years at Harvard. Or, how I loved being a tenure-track faculty member, by deliberately trying not to be one." (1) I decided that this is a 7-year postdoc. (2) I stopped taking advice. (3) I created a "feelgood" email folder. (4) I work fixed hours and in fixed amounts. (5) I try to be the best "whole" person I can. (6) found real friends. (7) I have fun "now".
 
-Here are a few extra tips:  
+For what it's worth, here is some specific advice that I've gotten:  
 
-* Learn how to say **no** to almost everything people ask you to do and **yes** to only a few things that will specifically advance your career and research goals. The majority of things you will be asked to do is extra or extracurricular with regards to your promotion. Therefore make sure to pause and think carefully about what you commit to.
+* Learn how to say **no** to almost everything people ask you to do and **yes** to specific things that will specifically advance your career and research goals. The majority of things you will be asked to do is extra or extracurricular with regards to your promotion. Therefore make sure to think carefully about what you commit to. 
 * Find a sponsor. Someone to advocate for you, nominate you for awards and promote your work to colleagues. 
 * When you are deciding whether or not to work with a potential collaborator, check out their publication list to assess what kind of productivity you should expect. 
 * Get copies of successful grants. Ask people not in your field to review your grant because these are the types of people who will review your grant (i.e. avoid jargon and use simple enough language). 
-
 
 
 #### Examples of NSF Biosketch
