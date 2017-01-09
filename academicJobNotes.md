@@ -6,6 +6,7 @@ This document contains resources and notes that I've gathered about following an
 
 ## Advice for Graduate Students
 
+* [Tips for PhD students and early-career researchers](http://www.opiniomics.org/tips-for-phd-students-and-early-career-researchers/) by Opiniomics
 * [General advice for Graduate Students](https://sites.google.com/site/adviceforgraduatestudents/)
 * [Grad students in (bio)stats - do a postdoc!](http://simplystatistics.tumblr.com/post/14929329755/grad-students-in-biostatistics-do-a-postdoc) by Simply Statistics
 * [Leek guide to sharing data with a statistician](https://github.com/jtleek/datasharing) by Jeff Leek
@@ -26,11 +27,13 @@ This document contains resources and notes that I've gathered about following an
 
 * [Managing your postdoc year(s): avoid these mistakes](http://theprofessorisin.com/2014/09/12/managing-your-postdoc-years-a-guest-post/) by The Professor Is In
 * [Leek guide to reading papers](https://github.com/jtleek/readingpapers) by Jeff Leek
+* [How to stand out in academic scientific research](http://www.opiniomics.org/how-to-stand-out-in-academic-scientific-research/) by Opiniomics
 
 
 ## Applying for faculty positions
 
 * [Advice for students on the academic job market](http://simplystatistics.org/2013/12/04/advice-for-stats-students-on-the-academic-job-market-2/) by Simply Statistics
+* [Tips for a job search](https://hopstat.wordpress.com/2016/10/05/tips-for-job-search/) by John Muschelli
 
 #### The application package
 
