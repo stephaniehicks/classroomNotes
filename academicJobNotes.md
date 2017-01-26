@@ -153,6 +153,7 @@ Key things to look for in the offer letter:
 * [Ten lessons I wish I had been taught](http://alumni.media.mit.edu/~cahn/life/gian-carlo-rota-10-lessons.html) by Gian-Carlo Rota
 * [Leek guide to give talks](https://github.com/jtleek/talkguide) by Jeff Leek
 * [The Awesomest 7-Year Postdoc or: How I Learned to Stop Worrying and Love the Tenure-Track Faculty Life](https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/) by Radhika Nagpal: "Seven things I did during my first seven years at Harvard. Or, how I loved being a tenure-track faculty member, by deliberately trying not to be one." (1) I decided that this is a 7-year postdoc. (2) I stopped taking advice. (3) I created a "feelgood" email folder. (4) I work fixed hours and in fixed amounts. (5) I try to be the best "whole" person I can. (6) found real friends. (7) I have fun "now".
+* [Documenting and Evaluating Data Science Contributions in Academic Promotion in Departments of Statistics and Biostatistics](http://biorxiv.org/content/early/2017/01/25/103093) by Lance Waller
 
 For what it's worth, here is some specific advice that I've gotten:  
 
